@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/index.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+   <script defer src="js/index.js"></script>
+   <title>HomeLandingPage</title>
+</head>
+
+<body>
+   <header class="raised">
+      <div class="header container">
+         <span class="logo">
+            <b>YoCrib</b>
+         </span>
+         <button id="menu-toggle" class="btn btn-icon">
+            <i class="fa-xl fa-solid fa-bars"></i>
+         </button>
+         <nav>
+            <ul class="nav-list">
+               <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+               <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+               <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+               <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
+               <li class="nav-item"><a class="nav-link" href="#contact-us">Contact Us</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <main>
+      <section id="home">
+         <img class="background-image" src="assets/images/bg.jpg" alt="background-image" />
+         <div class="overlay"></div>
+         <div class="container">
+            <div class="content">
+               <h1>Find your perfect <br /> Home</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, voluptatibus et! Magnam eligendi itaque
+                  illum.</p>
+               <button class="btn btn-primary">Get Started</button>
+            </div>
+         </div>
+         <div class="searchbar container">
+            <div class="filter-box">
+               <div>Location</div>
+               <div>Type</div>
+               <div>Price range</div>
+            </div>
+            <div class="input-wrapper">
+               <input type="text" name="" id="search-input" placeholder="Type something...">
+               <button class="search-btn btn btn-secondary btn-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+               </button>
+            </div>
+         </div>
+      </section>
+
+
+      <section id="features">
+         <div class="container">
+            <div class="content">
+               <h2>Luxury Apartments</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam possimus, temporibus reprehenderit
+                  cumque
+                  ea adipisci tenetur ut esse.</p>
+               <div class="card-container">
+                  <div class="card">
+                     <div class="card__img">
+                        <img src="./assets/images/bg.jpg" alt="card-image" />
+                     </div>
+                     <div class="card__content">
+                        <p class="card__title"><span class="text-primary">$</span>599</p>
+                        <p class="card__text">Super Comfortable Home</p>
+                        <p class="card__text text-muted">Ha Long Bay</p>
+                        <button class="card__button btn  text-primary">
+                           <i class="fa-xl fa fa-heart"></i>
+                        </button>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div class="card__img">
+                        <img src="./assets/images/bg.jpg" alt="card-image" />
+                     </div>
+                     <div class="card__content">
+                        <p class="card__title"><span class="text-primary">$</span>599</p>
+                        <p class="card__text">Super Comfortable Home</p>
+                        <p class="card__text text-muted">Ha Long Bay</p>
+                        <button class="card__button btn text-primary">
+                           <i class="fa-xl fa fa-heart"></i>
+                        </button>
+                     </div>
+                  </div>
+
+                  <div class="card">
+                     <div class="card__img">
+                        <img src="./assets/images/bg.jpg" alt="card-image" />
+                     </div>
+                     <div class="card__content">
+                        <p class="card__title"><span class="text-primary">$</span>599</p>
+                        <p class="card__text">Super Comfortable Home</p>
+                        <p class="card__text text-muted">Ha Long Bay</p>
+                        <button class="card__button btn ">
+                           <i class="fa-xl fa fa-heart"></i>
+                        </button>
+                     </div>
+                  </div>
+
+                  <div class="card">
+                     <div class="card__img">
+                        <img src="./assets/images/bg.jpg" alt="card-image" />
+                     </div>
+                     <div class="card__content">
+                        <p class="card__title"><span class="text-primary">$</span>599</p>
+                        <p class="card__text">Super Comfortable Home</p>
+                        <p class="card__text text-muted">Ha Long Bay</p>
+                        <button class="card__button btn  text-primary">
+                           <i class="fa-xl fa fa-heart"></i>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="services">
+         <img class="background-image" src="./assets/images/bg.jpg" alt="bg-image">
+         <div class="overlay"></div>
+         <div class="container">
+            <div class="content">
+               <h2 class="text-center text-white">Customers stories</h2>
+               <div class="swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                     <!-- Slides -->
+                     <div class="swiper-slide">
+                        <div class="card">
+                           <div class="card__img">
+                              <img src="./assets/images/bg.jpg" alt="card-image" />
+                           </div>
+                           <div class="card__content">
+                              <p class="card__title"><span class="text-primary">$</span>599</p>
+                              <p class="card__text">Super Comfortable Home</p>
+                              <p class="card__text text-muted">Ha Long Bay</p>
+                              <button class="card__button btn  text-primary">
+                                 <i class="fa-xl fa fa-heart"></i>
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="card">
+                           <div class="card__img">
+                              <img src="./assets/images/bg.jpg" alt="card-image" />
+                           </div>
+                           <div class="card__content">
+                              <p class="card__title"><span class="text-primary">$</span>599</p>
+                              <p class="card__text">Super Comfortable Home</p>
+                              <p class="card__text text-muted">Ha Long Bay</p>
+                              <button class="card__button btn  text-primary">
+                                 <i class="fa-xl fa fa-heart"></i>
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="card">
+                           <div class="card__img">
+                              <img src="./assets/images/bg.jpg" alt="card-image" />
+                           </div>
+                           <div class="card__content">
+                              <p class="card__title"><span class="text-primary">$</span>599</p>
+                              <p class="card__text">Super Comfortable Home</p>
+                              <p class="card__text text-muted">Ha Long Bay</p>
+                              <button class="card__button btn  text-primary">
+                                 <i class="fa-xl fa fa-heart"></i>
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  -->
+               </div>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+      <section id="about-us">
+         <div class="container">
+            <div class="content">
+               <div>
+                  <img class="rounded" src="./assets/images/bg.jpg" alt="features-img" />
+               </div>
+               <div>
+                  <h2>Who We Are and What You Get From Us</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure ad maxime magnam deleniti. Aliqua
+                  </p>
+                  <ul>
+                     <li>
+                        <i class="fa-xl fa-solid fa-circle-check"></i>
+                        <div>
+                           Best price on the market
+                        </div>
+                     </li>
+                     <li>
+                        <i class="fa-xl fa-solid fa-circle-check"></i>
+                        <div>
+                           Over 20 experienced agents
+                        </div>
+                     </li>
+                     <li>
+                        <i class="fa-xl fa-solid fa-circle-check"></i>
+                        <div>
+                           Trusted property
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- <section id="contact-us">
+         <div class="container">
+            <div class="content"></div>
+         </div>
+     </section>-->
+      <section id="newsletter">
+         <div class="container">
+            <div class="content">
+               <div class="newsletter">
+                  <img class="rounded" src="./assets/images/bg.jpg" alt="">
+                  <div class="">
+                     <h2>Subcribe for <br /> Our Newsletter</h2>
+                     <div class="input-box rounded">
+                        <input type="text" name="" id="" placeholder="Enter your email">
+                        <button class="btn btn-small btn-primary">Subcribe</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer>
+      <div class="footer container">
+         <div class="footer-left">
+            <h3>YoCrib</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="socials">
+               <a href="" class=""><i class="fa-brands fa-facebook"></i></a>
+               <a href="" class=""><i class="fa-brands fa-twitter"></i></a>
+               <a href="" class=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+         </div>
+         <div class="footer-right">
+            <div>
+               <h3>About</h3>
+               <ul>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">News & Blog</a></li>
+               </ul>
+            </div>
+            <div>
+               <h3>Company</h3>
+               <ul>
+                  <li><a href="#">How we work?</a></li>
+                  <li><a href="#">Capital</a></li>
+                  <li><a href="#">Security</a></li>
+               </ul>
+            </div>
+            <div>
+               <h3>Support</h3>
+               <ul>
+                  <li><a href="#">FAQs</a></li>
+                  <li><a href="#">Help center</a></li>
+                  <li><a href="#">Contact us</a></li>
+               </ul>
+            </div>
+            <div>
+               <h3>Resources</h3>
+               <ul>
+                  <li><a href="#">Our agents</a></li>
+                  <li><a href="#">Customer services</a></li>
+                  <li><a href="#">Videos</a></li>
+                  <li><a class="text-primary" href="#">Free Trial</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="copyright text-center">
+         <p>duongvanphi19
+            <a class="text-primary" href="https://www.instagram.com/p/Ce3LqfiDWgv/?igshid=YmMyMTA2M2Y=">Design</a>
+         </p>
+      </div>
+   </footer>
+   <ul id="log"></ul>
+</body>
+
+</html>
